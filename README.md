@@ -2,7 +2,8 @@
 C# and VB.NET function to resize picture with new dimentions and decreased storage size
 
 Example of Use:
-** VB.NET
+# VB.NET
+
 Dim filePath As String = "C:\Users\Sanket\Pictures\largeimagetest.jpg"
 Dim newfilePath As String = "C:\Users\Sanket\Pictures\largeimagetest2.jpg"
 Using img As New System.Drawing.Bitmap(filePath)
@@ -10,7 +11,8 @@ Using img As New System.Drawing.Bitmap(filePath)
 End Using
 
 
-** C# 
+# C# 
+
 string filePath = "C:\Users\Sanket\Pictures\largeimagetest.jpg"
 string newfilePath  = "C:\Users\Sanket\Pictures\largeimagetest2.jpg"
 using (System.Drawing.Bitmap img = new System.Drawing.Bitmap(filePath))
