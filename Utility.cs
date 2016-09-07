@@ -1,3 +1,8 @@
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+public static class Utility
+{
 public static void ResizeImageAndSave(Bitmap image, int maxWidth, int maxHeight, int quality, string filePathNewLocation)
         {
             // Get the image's original width and height
@@ -27,3 +32,4 @@ public static void ResizeImageAndSave(Bitmap image, int maxWidth, int maxHeight,
             image.Dispose();
             newImage.Save(filePath, ImageFormat.Jpeg);
         }
+}
