@@ -3,7 +3,7 @@ Imports System.Drawing.Drawing2D
 Imports System.Drawing.Imaging
 
 Public Class Utility
-    Public Shared Sub ResizeImageAndSave(image As Bitmap, maxWidth As Integer, maxHeight As Integer, quality As Integer, filePath As String)
+    Public Shared Sub ResizeImageAndSave(image As Bitmap, maxWidth As Integer, maxHeight As Integer, filePath As String)
         ' Get the image's original width and height
         Dim originalWidth As Integer = image.Width
         Dim originalHeight As Integer = image.Height
