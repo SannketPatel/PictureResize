@@ -1,7 +1,7 @@
 # PictureResize
 C# and VB.NET function to resize picture with new dimentions and decreased storage size
 
-Example of Use:
+***Example of Use:***
 # VB.NET
 
 Dim filePath As String = "C:\Users\Sanket\Pictures\largeimagetest.jpg"
