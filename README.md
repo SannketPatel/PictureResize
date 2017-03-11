@@ -10,7 +10,6 @@ Using img As New System.Drawing.Bitmap(filePath)
       ResizeImageAndSave(img, Convert.ToInt32(600), Convert.ToInt32(420), newfilePath)
 End Using
 
-
 # C# 
 
 string filePath = "C:\Users\Sanket\Pictures\largeimagetest.jpg"
